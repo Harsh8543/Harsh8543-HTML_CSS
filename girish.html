@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <style>
+      table {
+        width: 50%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 8px;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Shopping Cart</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Books Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Science</td>
+          <td>$220</td>
+          <td>
+            <input
+              type="number"
+              value="1"
+              onchange="calculateAmount(this, 220)"
+            />
+          </td>
+          <td class="amount">$0</td>
+        </tr>
+        <tr>
+          <td>Maths</td>
+          <td>$220</td>
+          <td>
+            <input
+              type="number"
+              value="1"
+              onchange="calculateAmount(this, 220)"
+            />
+          </td>
+          <td class="amount">$0</td>
+        </tr>
+        <tr>
+          <td>Hindi</td>
+          <td>$220</td>
+          <td>
+            <input
+              type="number"
+              value="1"
+              onchange="calculateAmount(this, 220)"
+            />
+          </td>
+          <td class="amount">$0</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script>
+      function calculateAmount(input, price) {
+        const quantity = input.value;
+        const amount = price * quantity;
+        const amountCell = input.parentElement.nextElementSibling;
+        amountCell.textContent = amount;
+      }
+    </script>
+  </body>
+</html>

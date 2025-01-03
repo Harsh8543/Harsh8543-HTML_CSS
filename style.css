@@ -1,0 +1,39 @@
+ h1{
+    color:green;
+}
+p{
+    color:red;
+}
+button{
+    color:#0000ff;
+}
+p{
+   background-color:blueviolet
+} 
+  body{
+    background-color:#9B287B;
+}
+button{
+    background-color:violet;
+}
+h1{
+    background-color:burlywood;
+}
+*{
+    color:blueviolet;
+}
+h1{
+    color:green;
+}
+#headingOne{
+    color:blue;
+}
+#headingtwo{
+    color:maroon;
+}
+#headingthree{
+    color:red;
+}
+.my class{
+    color:blue;
+}

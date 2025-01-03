@@ -1,0 +1,55 @@
+/* #box{
+    background-color:red;
+}
+.heading{
+    color:blue;
+}
+button{
+    background-color:blue;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-decoration:blue dotted underline;
+    color:blue;
+    background-color:pink;
+}
+a{
+    color:brown;
+}
+#h1{
+    font-weight: 900;
+}
+#h2{
+    font-weight:900;
+}
+#one{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#two{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#one{
+    font-size: 1px;
+}
+#two{
+    font-size:52px;
+}
+#three{
+font-size:35px;
+}
+#one{
+    text-transform: capitalize;
+} */
+/* #one{
+    text-align:center;
+    text-transform: capitalize;
+} */
+h1{
+    text-align:center;
+    text-transform: capitalize;
+}
